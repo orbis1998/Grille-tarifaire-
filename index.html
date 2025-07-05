@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grille Tarifaire Assistant IA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --color-primary-green: #25D366;
+      --color-pure-white: #FFFFFF;
+      --color-soft-black: #1C1C1E;
+    }
+
+    .bg-primary-green { background-color: var(--color-primary-green); }
+    .text-primary-green { color: var(--color-primary-green); }
+    .bg-soft-black { background-color: var(--color-soft-black); }
+    .text-soft-black { color: var(--color-soft-black); }
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-soft-black min-h-screen flex items-center justify-center p-4">
+
+  <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+
+    <!-- Header Section -->
+    <div class="bg-soft-black p-6 sm:p-8 flex flex-col items-center justify-center rounded-t-2xl">
+      <img src="https://i.ibb.co/PvkxpC3X/20250705-030901.jpg" 
+           alt="Logo Assistant IA" 
+           class="w-24 h-24 mb-4 rounded-full bg-white p-2">
+      <h1 class="text-3xl sm:text-4xl font-bold text-white text-center">L'Assistant IA</h1>
+      <p class="text-white text-lg sm:text-xl mt-2 text-center">Grille Tarifaire</p>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="flex flex-col md:flex-row p-6 sm:p-8 gap-6">
+
+      <!-- Basique -->
+      <div class="flex-1 bg-white border border-gray-200 rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+        <h2 class="text-2xl font-semibold text-primary-green mb-4">Version Basique</h2>
+        <p class="text-5xl font-extrabold text-soft-black mb-6">55<span class="text-2xl align-top">$</span></p>
+        <ul class="text-gray-700 text-left space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-green mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            Installation sur votre téléphone Android
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-green mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            Configuration de 50 messages personnalisés concernant votre activité ou structure.
+          </li>
+        </ul>
+        <a href="https://wa.me/243840160553?text=Bonjour%2C+je+suis+int%C3%A9ress%C3%A9+par+la+version+Basique+%2855%24%29+de+l%27Assistant+IA." 
+           class="mt-auto bg-primary-green text-white font-bold py-3 px-8 rounded-full hover:bg-green-600 transition duration-300 ease-in-out shadow-lg transform hover:scale-105">
+          Choisir Basique
+        </a>
+      </div>
+
+      <!-- Premium -->
+      <div class="flex-1 bg-primary-green rounded-xl shadow-md p-6 flex flex-col items-center text-center text-white">
+        <h2 class="text-2xl font-semibold mb-4">Version Premium</h2>
+        <p class="text-5xl font-extrabold mb-6">85<span class="text-2xl align-top">$</span></p>
+        <ul class="text-white text-left space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-white mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            Installation de l'outil sur téléphone Android
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-white mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            Configuration de 100 messages personnalisés concernant votre activité ou structure
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-white mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            Guide PDF + Suivi/Assistance 30 jours après l'achat de l'outil.
+          </li>
+        </ul>
+        <a href="https://wa.me/243840160553?text=Bonjour%2C+je+veux+souscrire+%C3%A0+la+version+Premium+%2885%24%29+de+l%27Assistant+IA." 
+           class="mt-auto bg-white text-primary-green font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 ease-in-out shadow-lg transform hover:scale-105">
+          Choisir Premium
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
